@@ -1,0 +1,9 @@
+.container {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  user-select: none;
+  cursor: pointer;
+}
+.container img{
+  height: auto;
+}

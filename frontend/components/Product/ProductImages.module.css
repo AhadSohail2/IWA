@@ -1,0 +1,13 @@
+.container{
+    width: 450px;
+}
+.mainImage img{
+    border: 1px solid rgb(213, 213, 213);
+}
+.mainImage{
+    margin-bottom: 10px;
+}
+.subImages{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,33 @@
+.error {
+  background-color: #ed4337;
+}
+.success {
+  background-color: #428959;
+}
+.errorModal {
+  overflow: hidden;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  width: 200px;
+  position: fixed;
+  right: 0px;
+  border-radius: 5px;
+  z-index: 500;
+  position: fixed;
+  animation: makeOut 1s ease-in-out forwards;
+  opacity: 0;
+  transform: translateX(200px);
+}
+
+@keyframes makeOut {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

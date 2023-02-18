@@ -1,0 +1,109 @@
+.container h1 {
+  font-size: 2rem;
+  width: 700px;
+  color: var(--mainColor);
+}
+.colorBoxes {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 5px;
+}
+.size {
+  margin-top: 10px;
+}
+.sizes {
+  display: flex;
+  column-gap: 8px;
+  margin-top: 5px;
+}
+
+.colors {
+  margin-top: 10px;
+}
+.subHead {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--darkGrey);
+}
+.price {
+  margin-top: 20px;
+}
+.price div:nth-child(1) {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--mainColor);
+}
+.price div:nth-child(2) {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--darkGrey);
+  margin-left: 5px;
+  margin-top: -4px;
+  text-decoration: line-through;
+}
+
+.quantity {
+  margin-top: 8px;
+}
+.quantityControls {
+  margin-top: 5px;
+  display: flex;
+  column-gap: 5px;
+}
+.quantityControls input {
+  width: 60px;
+  padding: 5px 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: #f6f6f6;
+}
+.quantityControls input::-webkit-outer-spin-button,
+.quantityControls input::-webkit-inner-spin-button {
+  display: none;
+}
+.quantityControls button {
+  background-color: var(--mainColor);
+  color: white;
+  padding: 5px 7px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.socialIcons {
+  margin-top: 10px;
+  display: flex;
+  column-gap: 10px;
+  font-size: 1.5rem;
+  color: var(--darkGrey);
+}
+.controls {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+.controls button {
+  padding: 8px 10px;
+  font-size: 1.1rem;
+  width: 140px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.controls button:nth-child(1) {
+  background-color: var(--mainColor);
+  color: var(--white);
+}
+.controls button:nth-child(2) {
+  background-color: #f6f6f6;
+  color: var(--mainColor);
+}
+.unavailableStock{
+  font-weight: 800;
+  color: var(--mainColor);
+}

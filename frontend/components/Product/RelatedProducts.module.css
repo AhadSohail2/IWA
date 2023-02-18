@@ -1,0 +1,17 @@
+.productContainer{
+    margin-bottom: 50px;
+}
+.productContainer h2{
+    color: var(--mainColor);
+    font-weight: 800;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.products{
+    display: flex;
+    column-gap: 60px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

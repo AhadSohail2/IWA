@@ -1,0 +1,13 @@
+.mainHeading{
+    margin: 20px 0px;
+}
+.mainHeading h2{
+    font-size: 1.8rem;
+    color: var(--mainColor);
+}
+.table{
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

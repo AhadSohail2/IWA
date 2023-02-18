@@ -1,0 +1,52 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--mainColor);
+  text-align: center;
+}
+.trackOrderForm {
+  align-self: center;
+}
+.trackOrderForm form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+.trackOrderForm input,
+.trackOrderForm button {
+  width: 300px;
+  padding: 6px 10px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-weight: 800;
+}
+.trackOrderForm button {
+  cursor: pointer;
+  background-color: var(--mainColor);
+  color: var(--white);
+}
+.trackOrderForm input{
+    color: var(--darkGrey);
+    box-shadow: 1px 2px 8px #11111145;
+}
+.status{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.status span{
+    color: var(--mainColor);
+    font-weight: 800;
+}
+.status div:nth-child(1){
+    margin-bottom: 10px;
+}

@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 520px;
+}
+.form input,
+.form textarea {
+  width: 500px;
+  padding: 8px 8px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  box-shadow: 1px 2px 4px rgb(195, 195, 195);
+  border-radius: 5px;
+}
+.form textarea {
+  height: 80px;
+  resize: none;
+}
+.form button {
+  padding: 7px 0px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  background-color: var(--mainColor);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

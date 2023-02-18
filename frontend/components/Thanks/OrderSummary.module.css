@@ -1,0 +1,26 @@
+.container{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-shadow: 1px 2px 8px #11111145;
+    padding: 10px;
+    border-radius: 5px;
+}
+.summaryelement{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: var(--darkGrey);
+    align-items: center;
+}
+.totalBill div:nth-child(2){
+    color: var(--mainColor);
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.heading{
+    font-size: 1.5rem;
+    color: var(--mainColor);
+    text-align: center;
+}

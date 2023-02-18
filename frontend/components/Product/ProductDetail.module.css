@@ -1,0 +1,46 @@
+.container{
+    margin-top: 60px;
+    box-shadow: 2px 4px 6px #11111145;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.heading{
+    font-size: 1.6rem;
+    background-color: var(--mainColor);
+    color: var(--white);
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.description{
+    margin-top: 10px;
+    padding: 0px 20px;
+    color: var(--darkGrey);
+}
+
+.description ul{
+    list-style: none;
+    margin-left: 25px;
+}
+.description ul li::before {
+    content: "\2022";
+    color: var(--mainColor);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  .description h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--mainColor);
+    margin-bottom: 5px;
+  }
+
+  .description h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--mainColor);
+    margin-bottom: 5px;
+  }

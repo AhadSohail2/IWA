@@ -1,0 +1,18 @@
+.contact_container{
+    margin-top: 50px;
+}
+.contact_container h2{
+    color: var(--mainColor);
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.contactElements{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    box-shadow: 1px 2px 4px rgb(195, 195, 195);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

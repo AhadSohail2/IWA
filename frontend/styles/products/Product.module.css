@@ -1,0 +1,9 @@
+.container{
+    margin-top: 40px;
+}
+
+.productInfo{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}

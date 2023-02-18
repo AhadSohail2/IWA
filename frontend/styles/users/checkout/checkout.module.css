@@ -1,0 +1,49 @@
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ProductsSummary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  column-gap: 5vw;
+  justify-content: center;
+  /* align-items: center; */
+}
+.orderID {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--darkGrey);
+}
+.orderID span {
+  display: block;
+  color: var(--mainColor);
+}
+.goBack {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.goBack button{
+  padding: 8px 50px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  background-color: var(--mainColor);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.goBack div{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 5px;
+}
+.goBack i{
+  font-size: 40px;
+}

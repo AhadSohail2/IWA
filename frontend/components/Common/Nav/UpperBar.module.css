@@ -1,0 +1,22 @@
+.upperBar{
+    background-color: var(--mainColor);
+    padding-top: .3em;
+    padding-bottom: .3em;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--white);
+    overflow-x: hidden;
+}
+.upperBar div{
+    width: 100%;
+    animation: sliding 15s infinite;
+}
+
+@keyframes sliding {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}

@@ -1,0 +1,29 @@
+.container {
+  width: 50vw;
+  border-collapse: collapse;
+}
+.container th {
+  background-color: var(--mainColor);
+  border-color: var(--mainColor);
+  color: white;
+  text-align: center;
+  padding: 10px 0px;
+}
+.container td {
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--darkGrey);
+}
+.container tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+.container tr:nth-child(odd) {
+  background-color: #dedede;
+}
+.container td div {
+  width: 20px;
+  height: 20px;
+  display: inline-block !important;
+}

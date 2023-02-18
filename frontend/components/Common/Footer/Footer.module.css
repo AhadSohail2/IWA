@@ -1,0 +1,130 @@
+.footer {
+  background-color: var(--darkWhite);
+  padding: 50px 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+.container div h3 {
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--mainColor);
+  margin-bottom: 5px;
+}
+.container div a {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--darkGrey);
+  margin-bottom: 5px;
+}
+.footer__aboutUs {
+  flex-basis: 25%;
+  align-self: center;
+}
+.footer__aboutUs h3{
+  font-size: 1.5rem !important;
+}
+.footer__aboutUs p {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.footer__quickInfo {
+  align-self: center;
+}
+.footer__quickInfo div {
+  margin-bottom: 3px;
+}
+.footer__quickInfo div h4 {
+  font-size: 1rem;
+  color: var(--mainColor);
+  font-weight: 800;
+}
+.footer__quickInfo div div {
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--darkGrey);
+}
+.footer__newsletter {
+  align-self: center;
+}
+.footer__newsletter {
+  box-shadow: 0px 4px 4px #11111124;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__newsletter form input {
+  margin-bottom: 5px;
+}
+.footer__newsletter form button {
+  background-color: var(--mainColor);
+  color: var(--white);
+}
+.footer__newsletter form input,
+.footer__newsletter form button {
+  width: 300px;
+  outline: none;
+  border: none;
+  padding: 9px 5px;
+  border-radius: 2px;
+  font-size: 1.03rem;
+  font-weight: 600;
+}
+.Footer__lowerBar {
+  background-color: var(--mainColor);
+  padding: 8px 0px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--white);
+}
+
+
+@media screen and (max-width:1200px) {
+  .footer__newsletter form input,
+.footer__newsletter form button {
+  width: 200px;
+  font-size: 1rem;
+}
+.footer__newsletter {
+  width: 220px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width:1000px) {
+  .container {
+    flex-wrap: wrap !important;
+    row-gap: 20px;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .container{
+    align-items: left;
+    justify-content: stretch;
+    flex-direction: column;
+  }
+  .container p{
+    width: 280px;
+  }
+  .container div{
+    align-self: stretch;
+  }
+  .footer__newsletter {
+    align-self: center !important;
+  }
+}

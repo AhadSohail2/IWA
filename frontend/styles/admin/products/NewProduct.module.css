@@ -1,0 +1,38 @@
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+.container input,
+.container select {
+  padding: 5px 4px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 2px 3px rgb(223, 223, 223);
+  margin: 10px;
+  font-size: 0.9rem;
+}
+.images,
+.selectContainer {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.textEditor {
+  box-shadow: 1px 2px 3px rgb(223, 223, 223);
+  padding: 20px 10px;
+  margin-bottom: 50px;
+}
+.addButton {
+  padding: 15px 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: var(--mainColor);
+  color: white;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}

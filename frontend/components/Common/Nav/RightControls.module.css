@@ -1,0 +1,34 @@
+.rightControls{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.rightControls button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: var(--darkGrey);
+}
+.rightControls div{
+    margin-left: 20px;
+}
+.rightControls__account{
+    font-weight: 600;
+    color: var(--mainColor);
+}
+.rightControls__cart{
+    position: relative;
+}
+/* .rightControls__cart::before{
+    content: '9';
+    font-size: 0.8rem;
+    position: absolute;
+    top: -10px;
+    left: 30%;
+    color: var(--white);
+    background-color: var(--mainColor);
+    font-weight: 800;
+    border-radius: 100%;
+    padding: 1px 4px;
+} */

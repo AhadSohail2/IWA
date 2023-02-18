@@ -1,0 +1,23 @@
+.productControls {
+  display: flex;
+  text-align: center;
+  margin-top: 10px;
+}
+.productControls button,
+.productControls a {
+  padding: 10px 0px;
+  width: 50%;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.productControls button {
+  border: none;
+  background-color: var(--mainColor);
+  color: var(--white);
+  cursor: pointer;
+  border-bottom-left-radius: 5px;
+}
+.productControls a{
+    background-color: rgb(236, 234, 234);
+    color: var(--mainColor);
+}

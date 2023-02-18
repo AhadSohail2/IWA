@@ -1,0 +1,14 @@
+.container{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.active{
+    transition: all 0.2s ease-in-out;
+    background-color: var(--mainColor);
+    color: var(--white);
+}

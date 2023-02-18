@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  box-shadow: 1px 2px 4px rgb(195, 195, 195);
+  padding: 20px 0px;
+}
+.productImage img {
+  border-right: 1px solid rgb(203, 203, 203);
+}
+.productName {
+  color: var(--darkGrey);
+  font-size: 1.8rem;
+}
+.productPrice {
+  margin-top: 10px;
+}
+.productPrice div:nth-child(2) {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--mainColor);
+}
+
+.subHead {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--darkGrey);
+}
+.quantity {
+  margin-top: 8px;
+}
+.quantityControls {
+  margin-top: 5px;
+  display: flex;
+  column-gap: 5px;
+}
+.quantityControls input {
+  width: 60px;
+  padding: 5px 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: #f6f6f6;
+}
+.quantityControls input::-webkit-outer-spin-button,
+.quantityControls input::-webkit-inner-spin-button {
+  display: none;
+}
+.quantityControls button {
+  background-color: var(--mainColor);
+  color: white;
+  padding: 5px 7px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.unavailableStock {
+  font-weight: 800;
+  color: var(--mainColor);
+}
+.Dbutton {
+  margin-top: 10px;
+} 
+.Dbutton button{
+  border: none;
+  outline: none;
+  background-color: none;
+  cursor: pointer;
+}
+.Dbutton i{
+  color: var(--darkGrey);
+  font-size: 1.2rem;
+}
+.colorSize{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.colorSize_size div:nth-child(2){
+  font-weight: 800;
+  color: var(--darkGrey);
+  margin-top: 5px;
+}
+.colorSize_color div:nth-child(2){
+  border-radius: 4px;
+  margin-top: 5px;
+}

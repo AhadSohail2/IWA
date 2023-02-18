@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=League+Spartan:wght@700;900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+html {
+  font-size: 16px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root {
+  --mainColor: #795c34;
+  --headColor: #454545;
+  --linkColor: #404040;
+  --darkGrey: #4a4a4a;
+  --darkWhite: #f9f9f9;
+  --white: #ffffff;
+  --grey: #848484;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+}
+@media screen and (max-width:800px) {
+  .container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  html{
+    font-size: 14px;
+  }
+}
